@@ -1,23 +1,22 @@
 # 📊 NQ-Levels Dynamic Chart
 
-This repository hosts a live-updating Plotly chart tracking key **NQ (Nasdaq 100 Futures)** technical and options-derived levels. The data is processed and pushed automatically from a Colab notebook, providing a continuous view of critical market boundaries.
+NQ Levels for pivot and scalping strategies
 
 ---
 
 ## 🚀 Live Interactive Chart
 
-Click the link below to view the fully interactive, auto-refreshing chart. This visualization updates every 30 seconds.
+Click the link below to view the fully interactive, auto-refreshing chart.
 
 [**VIEW THE LIVE NQ-LEVELS CHART HERE**](https://TheMo05e.github.io/NQ-Levels/NQ_Levels_Chart.html)
 ---
 
 ## 📈 Legend Definitions
 
-The chart uses several key levels derived from daily market structure and options Gamma positioning. Levels are categorized below for clarity.
+
 
 ### 1. Daily Market Structure Levels
 
-These levels are calculated based on the previous trading session's open, close, and range.
 
 | Level | Definition |
 | :--- | :--- |
@@ -31,7 +30,7 @@ These levels are calculated based on the previous trading session's open, close,
 
 ### 2. NQ Gamma Neutral Levels (Index Options)
 
-These levels are derived from the options market and represent points of gamma neutrality, serving as potential short-term anchors or pivot points.
+Synthetic NQ pivots
 
 | Category | Level | Definition |
 | :--- | :--- | :--- |
@@ -49,7 +48,7 @@ These levels are derived from the options market and represent points of gamma n
 
 ### 3. QQQ Gamma Neutral Levels (Dynamically Converted)
 
-These levels are derived from the **QQQ ETF** options market and are dynamically converted to NQ futures points to provide additional cross-asset context.
+From actual QQQ options
 
 | Category | Level | Definition |
 | :--- | :--- | :--- |
